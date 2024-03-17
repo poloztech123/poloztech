@@ -144,3 +144,19 @@
     });
 
 })(jQuery);
+
+/* */
+const messageInput = document.getElementById('message-input');
+const sendButton = document.getElementById('send-button');
+const chatHistory = document.querySelector('.chat-history');
+
+sendButton.addEventListener('click', () => {
+  const message = messageInput.value;
+  if (message.trim()) { // Check if message is not empty
+    // Simulate sending message (replace with actual logic)
+    const newMessage = document.createElement('p');
+    newMessage.textContent = `You: ${message}`;
+    chatHistory.appendChild(newMessage);
+    messageInput.value = ''; // Clear message input after sending
+  }
+});
