@@ -933,7 +933,8 @@ li.social-links a {
     font-weight: 600;
     letter-spacing: 0.5px;
     font-size: 15px;
-    color: #999;
+    color: #1638cf;
+    font-style: inherit;
 }
 
 .message-box h2 {
