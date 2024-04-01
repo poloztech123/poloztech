@@ -1,5 +1,6 @@
+
 function sendEmail(){
-    let email = document.getElementById('email').value;
+let email = document.getElementById('email').value;
 let first_name = document.getElementById('first_name').value;
 let last_name = document.getElementById('last_name').value;
 let phone = document.getElementById('phone').value;
@@ -17,6 +18,6 @@ emailjs.send("service_nzulu27","template_cr8e6bm",{
     message
 })
 form.reset();
-}
+};
 
 

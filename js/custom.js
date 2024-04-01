@@ -160,3 +160,4 @@ sendButton.addEventListener('click', () => {
     messageInput.value = ''; // Clear message input after sending
   }
 });
+
